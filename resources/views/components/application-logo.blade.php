@@ -1,0 +1,8 @@
+{{-- Logo Tumbuh. Menggantikan logo Laravel bawaan Breeze (dipakai di menu atas dan halaman login). --}}
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" {{ $attributes }}>
+    <rect width="64" height="64" rx="14" fill="#3fa968"/>
+    <path d="M32 52V30" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+    <path d="M32 36c-10 0-16-6-17-15 10 0 16 6 17 15z" fill="#fff"/>
+    <path d="M32 31c0-10 6-17 16-18 0 10-6 17-16 18z" fill="#e3f3e8"/>
+    <path d="M46 36c2.6 3.6 4.6 6.2 4.6 9a4.6 4.6 0 0 1-9.2 0c0-2.8 2-5.4 4.6-9z" fill="#8cc8f0"/>
+</svg>
