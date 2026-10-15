@@ -1,66 +1,111 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+🌱 Tumbuh - Plant Your Healthy Habits
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
+Tumbuh adalah sebuah aplikasi web berbasis gamifikasi yang dirancang untuk membantu mahasiswa dan pengguna umum dalam membangun serta mempertahankan kebiasaan sehat, khususnya minum air putih dan aktif bergerak (berjalan kaki).
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Dengan menggunakan metafora merawat tanaman virtual, setiap kebiasaan baik di dunia nyata akan berdampak langsung pada pertumbuhan tanaman Anda di dalam aplikasi.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+✨ Fitur Utama
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+🪴 Virtual Plant & Leveling: Rawat tanaman Anda dari sebuah 'Bibit' hingga menjadi 'Pohon Legenda' (8 Tingkatan Level). Air minum berfungsi sebagai penyiram, dan langkah kaki berfungsi sebagai pupuk (XP).
 
-## Learning Laravel
+🎯 Misi Harian & Streak: Selesaikan 3-4 misi harian untuk membuka Peti Harian berisi hadiah menarik. Pertahankan Streak harian Anda (dilengkapi fitur Streak Freeze untuk hari istirahat/sakit).
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+🏆 Lencana Pencapaian (Badges): Kumpulkan hingga 18 jenis lencana eksklusif, seperti "Hidrasi 7 Hari" atau "Maraton Kampus".
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+🤝 Fitur Sosial (Squad): Bentuk kelompok (squad) beranggotakan 3-8 orang untuk menyelesaikan target langkah kolektif.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+📊 Leaderboard Mingguan: Bersaing secara sehat dengan teman-teman di dalam squad melalui papan peringkat yang di-reset setiap minggunya.
 
-## Laravel Sponsors
+🔓 Unlockables: Buka berbagai jenis tanaman baru, dekorasi pot, dan tips kesehatan seiring meningkatnya level Anda.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+📉 Laporan Kesehatan Pribadi: Transisi dari motivasi gamifikasi ekstrinsik menuju kesadaran intrinsik melalui pantauan progres kesehatan yang nyata.
 
-### Premium Partners
+💻 Teknologi yang Digunakan
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+Proyek ini dibangun menggunakan arsitektur modern dengan pemisahan backend dan frontend:
 
-## Contributing
+Backend: Laravel (PHP Framework)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Frontend: React.js
 
-## Code of Conduct
+Styling: Tailwind CSS
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Build Tool: Vite
 
-## Security Vulnerabilities
+⚙️ Prasyarat
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Sebelum menjalankan proyek ini di komputer lokal, pastikan Anda telah menginstal:
 
-## License
+PHP (Versi 8.1 atau lebih baru)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Composer
+
+Node.js & NPM
+
+MySQL atau MariaDB (bisa menggunakan XAMPP/Laragon)
+
+🚀 Cara Instalasi & Menjalankan Proyek
+
+Ikuti langkah-langkah berikut untuk menjalankan aplikasi secara lokal:
+
+1. Kloning Repository
+
+git clone https://github.com/Gerhan-cmd/Tumbuh.git
+cd Tumbuh
+
+
+2. Setup Backend (Laravel)
+
+Instal semua dependensi PHP melalui Composer:
+
+composer install
+
+
+Salin file pengaturan environment:
+
+cp .env.example .env
+
+
+Buka file .env dan sesuaikan konfigurasi database Anda:
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=nama_database_tumbuh
+DB_USERNAME=root
+DB_PASSWORD=
+
+
+Buat Application Key dan jalankan migrasi database:
+
+php artisan key:generate
+php artisan migrate
+
+
+Jalankan server backend:
+
+php artisan serve
+
+
+(Server backend akan berjalan di http://localhost:8000)
+
+3. Setup Frontend (React & Vite)
+
+Buka terminal baru di folder proyek yang sama, lalu instal dependensi JavaScript:
+
+npm install
+
+
+Jalankan server frontend (Vite):
+
+npm run dev
+
+
+(Klik tautan lokal yang muncul di terminal, biasanya http://localhost:5173, untuk membuka aplikasi di browser)
+
+👥 Pengembang
+
+Gerhan - Fullstack Developer - GitHub Profile
+
+Dibuat dengan ❤️ untuk gaya hidup yang lebih sehat.
